@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="/animate/animate.css">
+        <link rel="stylesheet" href="css/flexboxgrid.css">
+        <script src="https://kit.fontawesome.com/61d2862fbc.js" crossorigin="anonymous"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-right">
+                    <a href=""><i class="fa-solid fa-house"></i></a>
+                    <a href=""><i class="fa-regular fa-user"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="nav-left">
+                    <div class="register-login-btn">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="#">ثبت نام / ورود</a>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="slider">
+                <div class="slides">
+                    <div class="item active" id="slide1">
+                        <img src="/image/s1.webp" alt="">
+                        <span>آهنگ هارو زنده تر <br>از اون چیزی که هستن گوش بده </span>
+                    </div>
+                    <div class="item" id="slide2">
+                        <img src="/image/s2.jpg" alt="">
+                        <span >کیفیت صدای که همیشه <br/> دنبالش بودی اینجاست</span>
+                    </div>
+                    <div class="item" id="slide3">
+                        <img src="/image/s3.webp" alt="">
+                        <span >رویاهاتو با صدای بلند گوش بده</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <i onclick="setSlide('slide1' , 1)" class="fa-solid fa-circle"></i>
+                    <i onclick="setSlide('slide2' , 2)" class="fa-solid fa-circle"></i>
+                    <i onclick="setSlide('slide3' , 3)" class="fa-solid fa-circle"></i>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="product-sec-naw">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="shoping-card">
+                            <div class="img-sec">
+                                <img src="./image/p1.jpg" alt="">
+                                
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="title">
+                                هدست کامپیوتر zeb robics
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price">2400 هزار تومان</span>
+                                </div>
+                                <div class="left">
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">علاقه</a>                                      
+                                        <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">خرید</a>
+                                        <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="shoping-card">
+                            <div class="img-sec">
+                                <img src="./image/p2.jpg" alt="">
+                                <span class="hot-offer">پیشنهاد ویژه</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="title">
+                                هدست کامپیوتر one odio
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price">4800 هزار تومان</span>
+                                </div>
+                                <div class="left">
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">علاقه</a>                                      
+                                        <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">خرید</a>
+                                        <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="shoping-card">
+                            <div class="img-sec">
+                                <img src="./image/p3.jpg" alt="">
+                                
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="title">
+                                هدست کامپیوتر philips
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price">3600 هزار تومان</span>
+                                </div>
+                                <div class="left">
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">علاقه</a>                                      
+                                        <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">خرید</a>
+                                        <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+                        <div class="shoping-card">
+                            <div class="img-sec">
+                                <img src="./image/p1.jpg" alt="">
+                                <span class="hot-offer">پیشنهاد ویژه</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+
+                            <div class="title">
+                                هدست کامپیوتر A4tech
+                            </div>
+                            <div class="buttons">
+                                <div class="right">
+                                    <span class="price">800 هزار تومان</span>
+                                </div>
+                                <div class="left">
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">علاقه</a>                                      
+                                        <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                    </div>
+                                    <div class="extend-btn">
+                                        <a class="b-text" href="">خرید</a>
+                                        <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </section>
+            <section class="supper-offer-sec">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="supper-offer-box">
+                            <span class="supper-offer-box-title">
+                                پیشنهاد شگفت انگیز
+                            </span>
+                            <div class="body">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="image-container">
+                                            <img src="./image/supper-product.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="spesification">
+                                            <div class="price-row">
+                                                <div class="price">1 میلیون تومان</div>
+                                                <div class="off">تخفیف 60 %</div>
+                                            </div>
+                                            <div class="title">هدست A4tech مدل 395</div>
+                                            <div class="counter-down">
+                                                <span id="seconds">55</span> :
+                                                <span id="minutes">15</span> :
+                                                <span id="hours">19</span>
+                                            </div>
+                                            <div class="remaining-time">زمان باقی مانده تا پایان تخفیف</div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="banner">
+                            <img src="/image/sec-banner.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+      <script src="./js/main.js"></script>
+  </body>
+</html>
