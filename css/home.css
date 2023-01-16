@@ -113,11 +113,12 @@ header .slider .buttons i:hover{
 
 }
 
-.product-sec-naw .shoping-card{
+.shoping-card{
     text-align: center;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
     margin: 10px 15px;
     border-radius: 8px ;
+    padding: 10px 0px;
 
 }
 
@@ -317,5 +318,85 @@ header .slider .buttons i:hover{
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
     
     
+}
+
+.dragble-list .shoping-card{
+    
+}
+
+.dragble-list img{
+    width: 70% !important;
+    margin: auto;
+    
+}
+
+.owl-stage-outer{
+    direction: ltr;
+    
+}
+
+.dragble-list .title{
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.dragble-list .title span{
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 2px solid #e74c3c;
+}
+
+  /* footer */
+
+footer .row{
+    background-color: #636e72;
+    font-size: 1em;
+}
+
+footer .row .right{
+    padding: 40px;
+}
+
+footer .row .right .title{
+    padding: 10px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer .row .right .des{
+    color: rgba(255, 255 , 255 ,.7);
+    line-height: 1.7em;
+
+}
+
+footer .row .left{
+    padding: 40px;
+}
+
+footer .row .left .title{
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+footer .row .left .socials{
+    display: flex ;
+    justify-content: space-around;
+    
+
+}
+
+footer .row .left .socials i{
+    color: white;
+    font-size: 1.5em;
+}
+
+footer .bottom{
+    background-color: #2d3436;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    padding: 12px;
 }
 
