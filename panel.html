@@ -7,10 +7,142 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="css/flexboxgrid.css">
     <link rel="stylesheet" href="css/panel.css">
-    <script src="https://kit.fontawesome.com/61d2862fbc.js" crossorigin="anonymous"></script
+    <script src="https://kit.fontawesome.com/61d2862fbc.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div id="panel" class="panel">
+        <div id="right">
+            <section class="menu">
+                <div class="user-info">
+                    <div class="img-name">
+                        <img src="image/s4.webp" alt="">
+                        <span class="name">امیر</span>
+                        <i onclick="toggleUserDetails()" class="fa-solid fa-angele-up"></i>
+                    </div>
+                    <div class="details">
+                        <div class="detail-item">
+                            <span>سطح دسترسی</span>
+                            <span>انلاین</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>وضعیت</span>
+                            <span>انلاین</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-btns">
+                    <a class="item" href="">
+                        <i class="fas fa-bell"></i>
+                        <span>محصولات</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="fas fa-bell"></i>
+                        <span>سفارش ها</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="fas fa-bell"></i>
+                        <span>گزارش ها</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="fas fa-bell"></i>
+                        <span>پشتیبانی</span>
+                    </a>
+                    <a class="item" href="">
+                        <i class="fas fa-bell"></i>
+                        <span>کاربرها</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div id="left">
+            <section class="main-box">
+                <header>
+                    <nav>
+                        <div class="right">
+                            <i onclick="togglePanel()" class="fas fa-bell"></i>
+                            <div class="search">
+                                <input type="text">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <a href=""><i class="fas fa-bell"></i></a>
+                            <a href=""><i class="fas fa-cog"></i></a>
+                            <a href=""><i class="fas fa-power-off"></i></a>
+                        </div>
+                    </nav>
+                    <div class="header-message">
+                        <h3>اخرین ورود دو روز پیش</h3>
+                        <a href="" class="lang-btn">فارسی</a>
+                    </div>
+                </header>
+                <div class="holder">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="mini-card-report">
+                                <div class="right">
+                                    <i class="fas fa-clipboard-list"></i>
+                                </div>
+                                <div class="left">
+                                    <span>تکمیل انبار</span>
+                                    <span>400</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="mini-card-report">
+                                <div class="right">
+                                    <i class="fas fa-clipboard-list"></i>
+                                </div>
+                                <div class="left">
+                                    <span>تکمیل انبار</span>
+                                    <span>400</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="mini-card-report">
+                                <div class="right">
+                                    <i class="fas fa-clipboard-list"></i>
+                                </div>
+                                <div class="left">
+                                    <span>تکمیل انبار</span>
+                                    <span>400</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="mini-card-report">
+                                <div class="right">
+                                    <i class="fas fa-clipboard-list"></i>
+                                </div>
+                                <div class="left">
+                                    <span>تکمیل انبار</span>
+                                    <span>400</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="revenue-box">
+                        <div class="head">
+                            <div class="right">
+                                درآمد
+                            </div>
+                            <div class="left">
+                                <i class="fas fa-cog"></i>
+                                <i class="fas fa-redo"></i>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <canvas id="myChart" width="300" height="150"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <script src="js/panel.js"></script>
 </body>
 </html>
